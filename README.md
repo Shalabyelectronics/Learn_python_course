@@ -14,6 +14,8 @@
 
 [خوارزمية هرمون الشعور بالعطش التابعة لدرس الحالة الشرطية](https://github.com/Shalabyelectronics/Learn_python_course/blob/master/unit_two/drink_water.py) 
 
+[خوارزمية ربوت الرد على الزبائن لتمرين عن الحالة الشرطية](https://github.com/Shalabyelectronics/Learn_python_course/commit/748f12bd96ec37e6b927ee41855e778ab7ecf3e8)
+
 ## ملاحظة
 
 هذا المستودع يخضع لتحديثات يومية لذا كن على الإطلاع حيث سوف نشارك الخوارزميات التي تم استخدامها في الدروس.
