@@ -31,4 +31,4 @@ else:
     print("_"*34)
     print("\n\nThe Incentive Report after modify it.\n\n")
     pprint(employee_eva)
-    print("\n\n------> Send this report to acountant <------")
+    print("\n\n--> Send this report to acountant <--")
