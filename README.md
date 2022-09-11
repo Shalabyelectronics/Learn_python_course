@@ -16,6 +16,8 @@
 
 [خوارزمية ربوت الرد على الزبائن لتمرين عن الحالة الشرطية](https://github.com/Shalabyelectronics/Learn_python_course/commit/748f12bd96ec37e6b927ee41855e778ab7ecf3e8)
 
+[خوارزمية التعديل على رواتب الموظفين من خلال تقييمهم لتمرين حالة التكرار](https://github.com/Shalabyelectronics/Learn_python_course/commit/114b7a6de5ee96e5d987379247f74c6d65aa62cc)
+
 ## ملاحظة
 
 هذا المستودع يخضع لتحديثات يومية لذا كن على الإطلاع حيث سوف نشارك الخوارزميات التي تم استخدامها في الدروس.
