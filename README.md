@@ -18,7 +18,7 @@
 
 [خوارزمية التعديل على رواتب الموظفين من خلال تقييمهم لتمرين حالة التكرار](https://github.com/Shalabyelectronics/Learn_python_course/commit/114b7a6de5ee96e5d987379247f74c6d65aa62cc)
 
-[خوارزمية لعبة الرجل المشنوق لتمرين حالة التكرار](https://github.com/Shalabyelectronics/Learn_python_course/blob/master/unit_two/hanging_man.py)
+[خوارزمية إنشاء ملفات وهمية وخوارزمية الترتيب الخاصة بدرس التعامل مع الملفات](https://github.com/Shalabyelectronics/Learn_python_course/tree/master/unit_two/my_files/all_py)
 
 ## ملاحظة
 
