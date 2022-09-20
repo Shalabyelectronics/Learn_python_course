@@ -91,8 +91,16 @@ if add_template.lower() == "e":
                             file.write(write_content)
                     else:
                         print(f"We created All messages in {messages_folder_name}")
+                else:
+                    print("We can't find any names list text files in names folder"\
+                            "please add the names list text file as below\n"\
+                            "(Example:)\nThe names text file must contain a list of names"\
+                            "as each name must be in a new line as below:\n"\
+                            "Ali Ahmed\nMohamed Shalaby\nSameh hassan\netc....")
+
             else:
                 os.mkdir("../names")
+                print("_"*30, end="\n")
                 print("\nPlease move your names text files to names folder that created to you"\
                         "Then rerun the script again.") 
         else:
