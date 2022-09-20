@@ -1,0 +1,7 @@
+Hello [name], 
+I want to greet you for joining our School,
+The School events will start on 1 of October 2023,
+We hope to join us to know about you more.
+Best Regards,
+The School administrator.
+Mohamed Shalaby
