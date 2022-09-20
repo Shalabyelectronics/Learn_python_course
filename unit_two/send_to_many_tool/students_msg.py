@@ -7,7 +7,8 @@ print("_"*30)
 add_template = input("Do you want to add a new template or choose from existed ones? (C)reat (E)xisted ")
 if add_template.lower() == "e":
     print("\nChoose which Template do you want to use: \n")
-    # First We are going to check if templates folder is exists>
+    # First We are going to check if templates folder is exists.
+    # If it's existed we will show the user all available templates.
     if os.path.exists("templates"):
         # Then We change the directory to the templates folder.
         os.chdir("templates")
@@ -94,9 +95,13 @@ if add_template.lower() == "e":
                 os.mkdir("../names")
                 print("\nPlease move your names text files to names folder that created to you"\
                         "Then rerun the script again.") 
+        else:
+            print("_"*30,end="\n")
+            print("\nYou do not have any text template please rerun to script"\
+                    " and create a new text template.")
     else:
         print("_"*30,end="\n")
-        print("You do not have a template folder please rerun to script and create a new template.")
+        print("\nYou do not have a template folder please rerun to script and create a new template.")
 else:
     # If there is no any folder template we wil create new one.
     if os.path.exists("templates"):    
