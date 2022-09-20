@@ -94,6 +94,9 @@ if add_template.lower() == "e":
                 os.mkdir("../names")
                 print("\nPlease move your names text files to names folder that created to you"\
                         "Then rerun the script again.") 
+    else:
+        print("_"*30,end="\n")
+        print("You do not have a template folder please rerun to script and create a new template.")
 else:
     # If there is no any folder template we wil create new one.
     if os.path.exists("templates"):    
