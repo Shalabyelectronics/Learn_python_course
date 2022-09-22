@@ -22,6 +22,8 @@
 
 [خوارزمية صناعة اداة انشاء ملفات نصية بسيطة حسب قالب محدد لمجموعة من الأسماء](https://github.com/Shalabyelectronics/Learn_python_course/tree/master/unit_two/send_to_many_tool)
 
+[خوارزمية بسيطة للتدريب على التعامل مع الملفات النصية بالتعديل على قالب واحد](https://github.com/Shalabyelectronics/Learn_python_course/blob/master/unit_two/send_to_many_tool/template_edit.py)
+
 ## ملاحظة
 
 هذا المستودع يخضع لتحديثات يومية لذا كن على الإطلاع حيث سوف نشارك الخوارزميات التي تم استخدامها في الدروس.
