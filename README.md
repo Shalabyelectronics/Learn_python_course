@@ -24,6 +24,8 @@
 
 [خوارزمية بسيطة للتدريب على التعامل مع الملفات النصية بالتعديل على قالب واحد](https://github.com/Shalabyelectronics/Learn_python_course/blob/master/unit_two/send_to_many_tool/template_edit.py)
 
+[تمارين عن كيفية إضافة الكائنات الى القائمة أو قاموس بالطريقة المختصرة](https://github.com/Shalabyelectronics/Learn_python_course/blob/master/unit_two/list_comprehension.py) 
+
 ## ملاحظة
 
 هذا المستودع يخضع لتحديثات يومية لذا كن على الإطلاع حيث سوف نشارك الخوارزميات التي تم استخدامها في الدروس.
