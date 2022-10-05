@@ -128,14 +128,15 @@ def game(play_again:bool=False, chosed_positions:list=[],player_one_dict:dict={}
         
     while True:
         system("clear")
-        draw_score_board(player_one_dict, player_two_dict)
+        draw_score_board(player_one_dict,player_two_dict)
         update_active_board(active_board,player_one_dict,player_two_dict)
-        if is_winner(player_two_dict):
-            print(f"Woow, {player_two_dict['name']} you are the Winner!!!")
-            do_revange = input(f"Oops {player_two_dict['name']} do you want to revange from your lost? (Y) (N) ").lower()
+        get_player_choice(player_one_dict, chosed_positions)
+        if is_winner(player_one_dict):
+            print(f"Woow, {player_one_dict['name']} you are the Winner!!!")
+            do_revange = input(f"Oops {player_two_dict['name']} do you want to revange from {player_one_dict['name']}? (Y) (N) > ").lower()
             if do_revange == "y":
                 system("clear")
-                player_two_dict['wins'] += 1
+                player_one_dict['wins'] += 1
                 player_one_dict['move'] = []
                 player_two_dict['move'] = []
                 chosed_positions = []
@@ -143,8 +144,8 @@ def game(play_again:bool=False, chosed_positions:list=[],player_one_dict:dict={}
                 game(True,chosed_positions,player_one_dict,player_two_dict,active_board)
             else:
                 break
-        if is_tie(chosed_positions,is_winner(player_two_dict)):
-            do_challenge = input(f"It is tie, {player_two_dict['name']} Do you yant to challenge {player_one_dict['name']} Again (Y) or (N)").lower()
+        if is_tie(chosed_positions,is_winner(player_one_dict)):
+            do_challenge = input(f"It is tie, {player_one_dict['name']} Do you yant to challenge {player_two_dict['name']} Again (Y) or (N) > ").lower()
             if do_challenge == 'y':
                 system("clear")
                 player_one_dict['move'] = []
@@ -161,17 +162,16 @@ def game(play_again:bool=False, chosed_positions:list=[],player_one_dict:dict={}
             else:
                 break
             
-        get_player_choice(player_one_dict, chosed_positions)
         system("clear")
         draw_score_board(player_one_dict, player_two_dict)
-        update_active_board(active_board,player_one_dict,player_two_dict)
-        if is_winner(player_one_dict):
-            print(f"Woow, {player_one_dict['name']} you are the Winner!!!")
-            do_revange = input(f"Oops {player_two_dict['name']} do you want to revange from your lost? (Y) (N) ").lower()
+        update_active_board(active_board,player_one_dict,player_two_dict) 
+        get_player_choice(player_two_dict, chosed_positions)
+        if is_winner(player_two_dict):
+            print(f"Woow, {player_two_dict['name']} you are the Winner!!!")
+            do_revange = input(f"Oops {player_one_dict['name']} do you want to revange from {player_two_dict['name']}? (Y) (N) > ").lower()
             if do_revange == "y":
                 system("clear") 
-
-                player_one_dict['wins'] += 1
+                player_two_dict['wins'] += 1
                 player_one_dict['move'] = []
                 player_two_dict['move'] = []
                 chosed_positions = []
@@ -180,7 +180,7 @@ def game(play_again:bool=False, chosed_positions:list=[],player_one_dict:dict={}
             else:
                 break
         if is_tie(chosed_positions,is_winner(player_two_dict)):
-            do_challenge = input(f"It is tie, {player_one_dict['name']} Do you yant to challenge {player_two_dict['name']} Again (Y) or (N)").lower()
+            do_challenge = input(f"It is tie, {player_two_dict['name']} Do you yant to challenge {player_one_dict['name']} Again (Y) or (N)").lower()
             if do_challenge == 'y':
                 system("clear")
                 player_one_dict['move'] = []
@@ -191,7 +191,6 @@ def game(play_again:bool=False, chosed_positions:list=[],player_one_dict:dict={}
                 game(True,chosed_positions,player_one_dict,player_two_dict,active_board)
             else:
                 break
-        get_player_choice(player_two_dict, chosed_positions)
 
 
 game()       
