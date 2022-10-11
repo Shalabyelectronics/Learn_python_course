@@ -26,6 +26,8 @@
 
 [تمارين عن كيفية إضافة الكائنات الى القائمة أو قاموس بالطريقة المختصرة](https://github.com/Shalabyelectronics/Learn_python_course/blob/master/unit_two/list_comprehension.py) 
 
+[تمرين الدوال 1: تمرير القيم من دالة الى أخرى مثال الربوت](https://github.com/Shalabyelectronics/Learn_python_course/blob/master/unit_three/two_bot.py)
+
 ## ملاحظة
 
 هذا المستودع يخضع لتحديثات يومية لذا كن على الإطلاع حيث سوف نشارك الخوارزميات التي تم استخدامها في الدروس.
