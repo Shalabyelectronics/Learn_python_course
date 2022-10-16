@@ -28,6 +28,8 @@
 
 [تمرين الدوال 1: تمرير القيم من دالة الى أخرى مثال الربوت](https://github.com/Shalabyelectronics/Learn_python_course/blob/master/unit_three/two_bot.py)
 
+[تمرين عمل دالة متسلسلة فيبوناتشي](https://github.com/Shalabyelectronics/Learn_python_course/blob/master/unit_three/fibonacci.py) 
+
 ## ملاحظة
 
 هذا المستودع يخضع لتحديثات يومية لذا كن على الإطلاع حيث سوف نشارك الخوارزميات التي تم استخدامها في الدروس.
