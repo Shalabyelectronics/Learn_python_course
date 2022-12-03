@@ -5,6 +5,24 @@ class Robot:
         self.name = name
         self.color = color
         Robot.robots += 1
+        self.__ip = None
+        self.__port = None
+        self.is_internet_connection = False
+    @property
+    def ip_port_info(self):
+        if self.__ip and self.__port:
+            self.is_internet_connection = True
+            return f"Ip : {self.__ip}\nPort : {self.__port}."
+        return "There is no internet connection."
+    @ip_port_info.setter
+    def ip_port_info(self,data):
+        self.__ip, self.__port = data
+    @ip_port_info.deleter
+    def ip_port_info(self):
+        print("IP and Port Was Deleted!!!")
+        self.__ip = None
+        self.__port = None
+        self.is_internet_connection = False
     def move(self):
         steps = input("How many steps do you want me to move?")
         return f"{self.name} moved {steps} step(s)."
